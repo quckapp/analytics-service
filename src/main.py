@@ -107,7 +107,7 @@ async def lifespan(app: FastAPI):
 # Create FastAPI app
 app = FastAPI(
     title="Analytics Service",
-    description="Analytics and metrics tracking service for QuikChat",
+    description="Analytics and metrics tracking service for QuckApp",
     version="1.0.0",
     lifespan=lifespan,
 )

@@ -19,7 +19,7 @@ async def init_db():
     # MySQL connection
     mysql_url = os.getenv(
         "MYSQL_URL",
-        "mysql+aiomysql://root:password@localhost:3306/quckchat_analytics"
+        "mysql+aiomysql://root:password@localhost:3306/quckapp_analytics"
     )
 
     engine = create_async_engine(
